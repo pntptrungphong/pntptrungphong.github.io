@@ -1,6 +1,38 @@
+.arrow-up {
+  opacity: 0;
+  position: fixed;
+  background-color: #777;
+  border: 1px solid green;
+  padding: 13px 10px;
+  display: inline-block;
+  left: 1207px;
+  top: 559px;
+  z-index: 1000;
+  border-radius: 40%;
+}
+
+.arrow-up:hover {
+  background-color: #58bb47;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.arrow-up i {
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+}
+
 .container1 {
   max-width: 1200px;
-  margin: auto;
+  left: 4%;
+  position: absolute;
+}
+
+.h21 {
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(51, 51, 51, 0.2);
 }
 
 .container1 header {
@@ -663,6 +695,104 @@
           transform: scale(1.1);
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
+}
+
+.shop .abc {
+  position: absolute;
+}
+
+.shop .abc .language {
+  display: none;
+  position: relative;
+  width: 103px;
+  top: 10px;
+  background: white;
+  left: -34px;
+  height: 90px;
+}
+
+.shop .abc .language ul {
+  margin: 5px;
+  text-align: inherit;
+}
+
+.shop .abc .language ul li a {
+  line-height: 30px;
+}
+
+.shop .abc .language ul li a:hover {
+  color: red;
+}
+
+.content4 {
+  margin: 40px 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.content4 .content-1 {
+  width: 33%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0 0 20px 0;
+}
+
+.content4 .content-1 .left img {
+  width: 150px;
+}
+
+.content4 .content-1 .right h2 {
+  font-size: 20px;
+}
+
+.content4 .content-1 .right ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 15px 0;
+}
+
+.content4 .content-1 .right ul li {
+  font-size: 13px;
+  margin-left: 3px;
+}
+
+.content4 .content-1 .right ul li i {
+  color: #FF9800;
+}
+
+.content4 .content-1 .right .price span {
+  font-size: 14px;
+  color: green;
+}
+
+.content4 .content-1 .right .price .discount {
+  text-decoration: line-through;
+  color: gray;
+  opacity: 0.5;
+}
+
+.content5 .slider-end img {
+  width: 137px;
+}
+
+.content5 {
+  background: #fff;
+  border: 1px solid #ebebeb;
+  border-radius: 4px;
+  width: 100%;
+  position: relative;
+  overflow: visible;
+  padding: 30px 0px;
+}
+
+.content5 .owl-nav {
+  display: none;
 }
 
 @-webkit-keyframes con1 {

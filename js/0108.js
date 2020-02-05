@@ -18,11 +18,11 @@ $(document).ready(function(){
     );
     $(".slider-end").owlCarousel(
         {
-            items:4,
+            items:6,
             margin:10,
             loop: true,
-            // autoplay: true,
-            // autoplayTimeout: 6000,
+            autoplay: true,
+            autoplayTimeout: 3000,
             nav: true,
             navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
             // navSpeed: 6000,
@@ -31,12 +31,27 @@ $(document).ready(function(){
     );
         $(window).scroll(function () { 
             var height = $(window).scrollTop();
-            if(height > 100){
-            $("header").css({"position": "fixed"});}
+            if(height > 200){
+            $("header").css({"position": "fixed"});
+            $(".arrow-up").css({"opacity":1});
+        }
             else {
                 $("header").css({"position": "relative","width":"1200px", "x-index":"10",
-    
             });
+            $(".arrow-up").css({"opacity":0});
+
             }
         });
+        $(".abc").click(function (e) { 
+            $(".language").toggle(1000);
+             
+         });
+         $(".arrow-up").click(function (e) { 
+            $('body,html').animate({
+                scrollTop: 0
+            }, 800);
+            return false;             
+         });
+
   });
+ 
