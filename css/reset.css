@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  --red: #ee002d;
+  --color: #333;
+  --white: #ecf0f1;
+  --font: 14px;
+}
+
+input {
+  outline: 0;
+  border: 0;
+  background-color: white;
+}
+
+button {
+  outline: 0;
+  border: 0;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+}
+/*# sourceMappingURL=reset.css.map */
