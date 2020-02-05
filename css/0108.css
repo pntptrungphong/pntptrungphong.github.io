@@ -781,6 +781,10 @@
   width: 137px;
 }
 
+.cart {
+  margin-left: 47px !important;
+}
+
 .content5 {
   background: #fff;
   border: 1px solid #ebebeb;
