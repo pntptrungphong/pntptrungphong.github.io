@@ -25,8 +25,7 @@
 
 .container1 {
   max-width: 1200px;
-  left: 4%;
-  position: absolute;
+  margin: auto;
 }
 
 .h21 {
@@ -51,7 +50,7 @@
 }
 
 .container1 header .menu {
-  margin: 0px 120px;
+  margin: 0px 100px;
 }
 
 .container1 header .menu > ul {
@@ -797,6 +796,73 @@
 
 .content5 .owl-nav {
   display: none;
+}
+
+.module {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 30px 0;
+}
+
+.module .module1 {
+  display: inline-block;
+  width: 204px;
+  margin: 0 10px;
+}
+
+.module .module1 .modtitle {
+  color: #222;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 6px;
+}
+
+.module .module1 .modtitle::after {
+  position: absolute;
+  content: "";
+  width: 70px;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  background-color: #58bb47;
+}
+
+.module .module1 .modcontent ul li a {
+  font-weight: 400;
+  line-height: 30px;
+  position: relative;
+  padding-left: 20px;
+  display: inline-block;
+}
+
+.module .module1 .modcontent ul li a::after {
+  font-family: "Font Awesome 5 Free";
+  content: "\f192";
+  font-size: 8px;
+  position: absolute;
+  top: 0px;
+  left: 0;
+}
+
+.footer {
+  background-color: #222;
+  margin-top: 35px;
+  padding: 20px 0;
+}
+
+.footer .copyright {
+  text-align: center;
+  color: white;
 }
 
 @-webkit-keyframes con1 {
